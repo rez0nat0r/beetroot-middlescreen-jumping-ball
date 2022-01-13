@@ -1,0 +1,24 @@
+@keyframes moveCircle {
+    0% {
+        left: 0;
+        top: calc(50% - 50px);
+    }
+    25% {
+        top: 0;
+        left: calc(50% - 50px);
+    }
+    50% {
+        left: calc(100% - 100px);
+        top: calc(50% - 50px);
+    }
+    75% {
+        top: calc(100% - 100px);
+        left: calc(50% - 50px);
+    }
+    100% {
+        left: 0;
+        top: calc(50% - 50px);
+    }
+}
+
+
